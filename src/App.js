@@ -135,7 +135,7 @@ const App = () => {
         } else {
             localStorage.setItem('citas', JSON.stringify([]))
         }
-    })
+    }, [citas])
 
 
     // cargar condicionalmente un titulo
